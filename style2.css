@@ -30,22 +30,6 @@ body {
   overflow-x: hidden;
 }
 
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  padding: 14px 18px;
-  background: #CC4E39;
-  font-size: 18px;
-}
-
-.header_png {
-    width: 125.45px;
-    height: 42.14px;
-    display: block;
-    margin: 60px auto 20px;
-}
-
 .menu-wrapper {
   position: relative;
 }
@@ -113,7 +97,7 @@ body {
   box-shadow: 2px 0 8px rgba(0,0,0,0.2);
   transition: top 0.4s ease;
   z-index: 2;
-  visibility: hidden; 
+  visibility: hidden;
 }
 
 .menu_png {
@@ -124,7 +108,7 @@ body {
 
 #menu-toggle:checked ~ .menu {
   top: 0; 
-  visibility: hidden; 
+  visibility: visible;
 }
 
 .menu ul {
@@ -140,13 +124,32 @@ body {
 .menu a {
   text-decoration: none;
   color: #F4F1E8;
+  font-family: "Zen Old Mincho";
   font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
   transition: color 0.3s;
 }
 
 /*.menu a:hover {
   color: #007bff;
 }*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 18px;
+  background: #CC4E39;
+  font-size: 18px;
+}
+
+.header_png {
+    width: 125.45px;
+    height: 42.14px;
+    display: block;
+    margin: 60px auto 20px;
+}
 
 .sns ul {
   display: flex;
@@ -403,4 +406,3 @@ h1 {
     text-align: center;
     font-size: 8px;
 }
-

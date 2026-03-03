@@ -97,6 +97,7 @@ a {
   box-shadow: 2px 0 8px rgba(0,0,0,0.2);
   transition: top 0.4s ease;
   z-index: 2;
+  visibility: hidden;
 }
 
 .menu_png {
@@ -107,6 +108,7 @@ a {
 
 #menu-toggle:checked ~ .menu {
   top: 0; 
+  visibility: visible;
 }
 
 .menu ul {
@@ -427,3 +429,4 @@ a {
     font-size: 8px;
 
 }
+

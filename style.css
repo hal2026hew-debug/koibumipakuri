@@ -142,8 +142,6 @@ a {
   padding: 14px 18px;
   background: #CC4E39;
   font-size: 18px;
-  position: relative;  
-  z-index: 4; 
 }
 
 .header_png {
@@ -429,4 +427,5 @@ a {
     font-size: 8px;
 
 }
+
 

@@ -50,7 +50,7 @@ html {
   display: block;
   height: 4px;
   margin: 6px 0;
-  background: #fff;
+  background: #A9402E;
   border-radius: 2px;
   transition: 0.4s;
 }
@@ -420,5 +420,6 @@ h1 {
     text-align: center;
     font-size: 8px;
 }
+
 
 

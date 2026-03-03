@@ -89,6 +89,7 @@ a {
   right: 0;             
   width: 100%;         
   max-width: 450px;
+  left: 50%;
   transform: translateX(-50%);
   margin: 0 auto;       
   height: 100vh;
@@ -121,7 +122,11 @@ a {
 .menu a {
   text-decoration: none;
   color: #F4F1E8;
+  font-family: "Zen Old Mincho";
   font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
   transition: color 0.3s;
 }
 
@@ -130,24 +135,18 @@ a {
 }*/
 
 .header {
-  position: sticky;
-  top: 0;
-  z-index: 5;
-  width: 100%;
-  max-width: 450px;
-  height: 80px;
-  background: #CC4E39;
-  z-index: 2;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  background: #CC4E39;
+  font-size: 18px;
 }
 
 .header_png {
     width: 125.45px;
     height: 42.14px;
     display: block;
-    margin: 0;
+    margin: 60px auto 20px;
 }
 
 .hero img {

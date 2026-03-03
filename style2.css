@@ -204,23 +204,12 @@ body {
   height: auto;
 } 
 
-.tagu2 img:hover {
-  filter: brightness(5);
-  transition: filter 0.3s ease;
-}
-
 .tagu3 {
   position: relative;
   width: 100px;
   justify-content: space-between;
   height: auto;
 } 
-
-.tagu3 img:hover {
-  filter: brightness(5);
-  transition: filter 0.3s ease;
-}
-
 
 .CG {
   position: absolute;

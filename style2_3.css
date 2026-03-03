@@ -196,24 +196,12 @@ body {
   height: auto;
 } 
 
-.tagu1 img:hover {
-  filter: brightness(5);
-  transition: filter 0.3s ease;
-}
-
-
 .tagu2 {
   position: relative;
   width: 100px;
   justify-content: space-between;
   height: auto;
 } 
-
-.tagu2 img:hover {
-  filter: brightness(5);
-  transition: filter 0.3s ease;
-}
-
 
 .tagu3 {
   position: relative;

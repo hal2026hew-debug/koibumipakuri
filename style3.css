@@ -6,6 +6,7 @@
 }
 
 html {
+  overscroll-behavior: none;
   scroll-behavior: smooth;
   background-color: #CC4E39;
   overflow-x: hidden;
@@ -258,4 +259,5 @@ body {
     color: #fff;
     text-align: center;
     font-size: 8px;
+
 }

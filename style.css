@@ -89,7 +89,6 @@ a {
   right: 0;             
   width: 100%;         
   max-width: 450px;
-  left: 50%;
   transform: translateX(-50%);
   margin: 0 auto;       
   height: 100vh;

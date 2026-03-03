@@ -43,7 +43,7 @@ html {
   display: block;
   height: 4px;
   margin: 6px 0;
-  background: #fff;
+  background: #A9402E;
   border-radius: 2px;
   transition: 0.4s;
 }
@@ -280,3 +280,4 @@ html {
     font-size: 8px;
 
 }
+

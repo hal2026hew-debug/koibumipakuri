@@ -91,7 +91,7 @@ a {
   max-width: 450px;
   left: 50%;
   transform: translateX(-50%);
-  margin: 0;       
+  margin: 0 auto;       
   height: 100vh;
   background: #CC4E39;
   box-shadow: 2px 0 8px rgba(0,0,0,0.2);
@@ -421,5 +421,6 @@ a {
     font-size: 8px;
 
 }
+
 
 

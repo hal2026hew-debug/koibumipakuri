@@ -113,6 +113,7 @@ html {
   box-shadow: 2px 0 8px rgba(0,0,0,0.2);
   transition: top 0.4s ease;
   z-index: 2;
+  visibility: hidden; 
 }
 
 .menu_png {
@@ -123,6 +124,7 @@ html {
 
 #menu-toggle:checked ~ .menu {
   top: 0; 
+  visibility: hidden; 
 }
 
 .menu ul {
@@ -414,3 +416,4 @@ h1 {
     text-align: center;
     font-size: 8px;
 }
+

@@ -333,11 +333,11 @@ a {
   background-color: #FCFAF7;
 }
 
-.humi {
+.fumi {
   border: 2px solid #C81D00;
 }
 
-.humi:hover {
+.fumi:hover {
   transform: scale(1.1);
   transition: transform 0.3s ease;
 }
@@ -419,8 +419,4 @@ a {
     color: #fff;
     text-align: center;
     font-size: 8px;
-
 }
-
-
-
